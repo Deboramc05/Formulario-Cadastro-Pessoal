@@ -18,9 +18,10 @@
 
 <!-- Formulário de Página -->
     <form name="contact" action="/" method="POST">
-        
-        
-           
+             
+            <!-- Fieldset utilizado para agrupar os campos de dados pessoais -->
+                <fieldset>
+                <fieldset class="grupo">
                 <h2 id="subtitulo"> Dados Pessoais  </h2>
                 <p>* campos obrigatórios</p>
 
@@ -50,12 +51,11 @@
                      <option> Feminino</option>
                 </select>
             </div>
-           
+            </fieldset>
 
              <!-- Campo de endereço-->
-
              
-            
+                <fieldset class="grupo">
                 <h2 id="subtitulo"> Endereço  </h2><br>
            
             <div class="campo">
@@ -117,12 +117,12 @@
                 <label for="cep"> CEP </label>
                 <input type="text" name="cep"  id="cep">
             </div>
-            
+            </fieldset>
 
            
 
            
-
+            <fieldset class="grupo">
             <h2 id="subtitulo"> Contatos  </h2><br>
 
             <div class="campo">
@@ -140,7 +140,7 @@
                 <label for="email"> Email </label>
                 <input type="text" name="email"  id="email">
             </div>
-           
+            </fieldset>
             
             <div class="campo">
                 <label for="mensagem">Mensagem</label><br>
