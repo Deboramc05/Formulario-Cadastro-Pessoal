@@ -43,3 +43,13 @@ p{
     padding: 10px;
     margin: 10px auto auto;
  } 
+ fieldset {
+    border: 0;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    
+ 
+}   
